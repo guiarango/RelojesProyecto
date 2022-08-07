@@ -1,0 +1,5 @@
+Dentro de cada una de las landings se trabajó para poder mejorar sus SEO. Dentro de cada página se implementaron los siguientes items:
+
+1. Title: Titulo de la landing Page.
+2. Desciption: Breve descripción que ayudará al buscador a entender de qué se trata nuestra página.
+3. Keywords: Palabras claves para que el buscador priorice nuestra página sobre las otras.
