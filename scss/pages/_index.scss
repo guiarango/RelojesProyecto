@@ -1,0 +1,132 @@
+/* MAIN */
+.index-main {
+  display: grid;
+  grid-template-columns: 10% repeat(4, 1fr) 10%;
+  grid-auto-rows: auto;
+  row-gap: 0px;
+  grid-template-areas:
+    ". categories categories categories categories ."
+    ". products products products products .";
+}
+
+/* CATEGORIAS */
+.categories {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  grid-area: categories;
+
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+      position: relative;
+      border: 2px solid #000;
+      margin-bottom: 8px;
+      /* width: 45%; */
+
+      h3 {
+        width: 100%;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 2px solid #000;
+        color: white;
+        background-color: rgba(8, 6, 6, 0.535);
+        transform: translate(-50%, -50%);
+      }
+
+      img {
+        width: 250px;
+      }
+    }
+  }
+}
+
+.carousel {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  grid-area: products;
+
+  h2 {
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .image-product {
+    width: 100%;
+  }
+}
+
+.arrNext,
+.arrPrev {
+  position: absolute;
+  top: 50%;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+.arrNext:hover,
+.arrPrev:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.arrNext:active,
+.arrPrev:active {
+  background-color: map-get($theme-colors, "80%");
+}
+
+.arrNext {
+  right: -35px;
+}
+
+.arrPrev {
+  left: -35px;
+}
+
+@media (max-width: 800px) {
+  .index-main {
+    grid-template-columns: 3% repeat(4, 1fr) 3%;
+    grid-auto-rows: auto;
+    row-gap: 15px;
+    grid-template-areas:
+      ". categories categories categories categories ."
+      ". products products products products .";
+  }
+  .categories ul li img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .index-main {
+    grid-template-columns: 3% repeat(4, 1fr) 3%;
+    grid-auto-rows: auto;
+    row-gap: 10px;
+    grid-template-areas:
+      ". categories categories categories categories ."
+      ". products products products products .";
+  }
+  .categories ul li img {
+    width: 100px;
+  }
+
+  .carousel .image-product {
+    max-width: 200px;
+    margin: auto;
+  }
+}

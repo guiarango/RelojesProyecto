@@ -1,0 +1,30 @@
+.nuestra-historia {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+
+  h2,
+  p {
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    margin-top: 3rem;
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nuestra-historia {
+    width: 90%;
+
+    img {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  }
+}

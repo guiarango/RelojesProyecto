@@ -1,0 +1,7 @@
+@keyframes colorsHeader {
+  @each $percent, $color in $theme-colors {
+    #{$percent} {
+      background-color: $color;
+    }
+  }
+}

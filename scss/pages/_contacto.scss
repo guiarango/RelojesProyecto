@@ -1,0 +1,26 @@
+.contacto {
+  width: 80%;
+  margin: auto;
+
+  h2,
+  h3,
+  p,
+  li {
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    text-align: center;
+    width: 90%;
+
+    ul {
+      list-style: none;
+    }
+  }
+}
