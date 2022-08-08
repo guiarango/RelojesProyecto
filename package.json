@@ -17,5 +17,7 @@
     "url": "https://github.com/guiarango/RelojesProyecto/issues"
   },
   "homepage": "https://github.com/guiarango/RelojesProyecto#readme",
-  "dependencies": {}
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
