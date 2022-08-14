@@ -82,45 +82,63 @@
       <section class="ayuda">
         <article>
           <h2>Preguntas Frecuentes</h2>
-          <h3>¿Cómo comprar en Relojes Colombia S.A.S?:</h3>
-          <p class="lead">
-            ¡Es bastante sencillo!, solo mira el gran catalogo que tenemos y
-            cuando te decidas por uno ¡Agregalo al carrito!
-          </p>
+          <button class="accordion">
+            ¿Cómo comprar en Relojes Colombia S.A.S?:
+          </button>
+          <div class="panel">
+            <p>
+              ¡Es bastante sencillo!, solo mira el gran catalogo que tenemos y
+              cuando te decidas por uno ¡Agregalo al carrito!
+            </p>
+          </div>
 
-          <h3>¿Qué medios de pago reciben?:</h3>
-          <p class="lead">¡Recibimos todos los medios de pago!</p>
+          <button class="accordion">¿Qué medios de pago reciben?:</button>
+          <div class="panel">
+            <p>¡Recibimos todos los medios de pago!</p>
+          </div>
 
-          <h3>
+          <button class="accordion">
             ¿Puedo utilizar varios medios de pago a la vez en la tienda online?:
-          </h3>
-          <p class="lead">
-            ¡Claro que sí!, es posible que combines más de un medio te pago en
-            tu compra sin ningún problema.
-          </p>
+          </button>
+          <div class="panel">
+            <p>
+              ¡Claro que sí!, es posible que combines más de un medio te pago en
+              tu compra sin ningún problema.
+            </p>
+          </div>
 
-          <h3>¿Los precios incluyen IVA?:</h3>
-          <p class="lead">
-            Todos los precios que veas en nuestra página ya tienen el IVA
-            incluido. Por lo que no sumará más a tu orden final.
-          </p>
+          <button class="accordion">¿Los precios incluyen IVA?:</button>
+          <div class="panel">
+            <p>
+              Todos los precios que veas en nuestra página ya tienen el IVA
+              incluido. Por lo que no sumará más a tu orden final.
+            </p>
+          </div>
 
-          <h3>¿Es seguro comprar en RelojesColombia.com.co?:</h3>
-          <p class="lead">
-            Comprar en RelojesColombia.com.co es seguro. Nuestra plataforma
-            tecnológica de comercio electrónico VTEX y nuestro aliado de pagos
-            PAYU LATAM cuentan con la certificación PCI DSS para el manejo
-            seguro de la información de tarjetas de crédito. Adicionalmente en
-            nuestra política de privacidad puedes consultar el manejo de tus
-            datos personales aquí.
-          </p>
+          <button class="accordion">
+            ¿Es seguro comprar en RelojesColombia.com.co?:
+          </button>
+          <div class="panel">
+            <p>
+              Comprar en RelojesColombia.com.co es seguro. Nuestra plataforma
+              tecnológica de comercio electrónico VTEX y nuestro aliado de pagos
+              PAYU LATAM cuentan con la certificación PCI DSS para el manejo
+              seguro de la información de tarjetas de crédito. Adicionalmente en
+              nuestra política de privacidad puedes consultar el manejo de tus
+              datos personales aquí.
+            </p>
+          </div>
 
-          <h3>¿Cuál es el tiempo y el costo del envío?:</h3>
-          <p class="lead">
-            El tiempo de entrega dentro del terriorio colombiano oscila entre
-            los 3-4 días hábiles. El costo del envío depende del servicio que el
-            cliente decida escoger.
-          </p>
+          <button class="accordion">
+            ¿Cuál es el tiempo y el costo del envío?:
+          </button>
+          <div class="panel">
+            <p>
+              El tiempo de entrega dentro del terriorio colombiano oscila entre
+              los 3-4 días hábiles. El costo del envío depende del servicio que
+              el cliente decida escoger.
+            </p>
+          </div>
         </article>
       </section>
     </main>
@@ -161,5 +179,21 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      var accordionElements = document.getElementsByClassName("accordion");
+      var i;
+
+      for (index = 0; index < accordionElements.length; index++) {
+        accordionElements[index].addEventListener("click", function () {
+          this.classList.toggle("activeAccordion");
+
+          var panel = this.nextElementSibling;
+          panel.style.display === "block"
+            ? (panel.style.display = "none")
+            : (panel.style.display = "block");
+        });
+      }
+    </script>
   </body>
 </html>

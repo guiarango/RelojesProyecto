@@ -9,8 +9,39 @@
     margin: 1rem 0;
   }
 
+  ul {
+    padding-left: 0px !important;
+  }
+
   p {
     font-size: 1.2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cardTelephone {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      // border-radius: 10px;
+      border: 1px solid #000;
+
+      .state {
+        background-color: $Six;
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      .telephoneNumber {
+        margin: 0 !important;
+        padding: 10px;
+      }
+    }
   }
 }
 

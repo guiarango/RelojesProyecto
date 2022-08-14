@@ -233,6 +233,31 @@ footer {
   .ayuda {
     width: 90%; } }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  margin-bottom: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s; }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.activeAccordion,
+.accordion:hover {
+  background-color: #ccc; }
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden; }
+
 .carrito-compras {
   width: 90%;
   margin: auto; }
@@ -303,8 +328,28 @@ footer {
   .contacto p,
   .contacto li {
     margin: 1rem 0; }
+  .contacto ul {
+    padding-left: 0px !important; }
   .contacto p {
     font-size: 1.2rem; }
+  .contacto .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .contacto .cards .cardTelephone {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #000; }
+      .contacto .cards .cardTelephone .state {
+        background-color: #063970;
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px;
+        text-align: center;
+        color: white; }
+      .contacto .cards .cardTelephone .telephoneNumber {
+        margin: 0 !important;
+        padding: 10px; }
 
 @media (max-width: 600px) {
   .contacto {
