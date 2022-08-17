@@ -330,6 +330,8 @@ footer {
     margin: 1rem 0; }
   .contacto ul {
     padding-left: 0px !important; }
+  .contacto .channels {
+    list-style: none; }
   .contacto p {
     font-size: 1.2rem; }
   .contacto .cards {
