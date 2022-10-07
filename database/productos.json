@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "titulo": "Reloj Casio Dorado",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto1.jpg",
+    "genero": "Mujer"
+  },
+  {
+    "id": 2,
+    "titulo": "Reloj Casio Negro",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto2.jpg",
+    "genero": "Hombre"
+  },
+  {
+    "id": 3,
+    "titulo": "Reloj Casio Negro Gris",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto3.jpg",
+    "genero": "Nino"
+  },
+  {
+    "id": 4,
+    "titulo": "Reloj Tough Solar blanco",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto4.jpg",
+    "genero": "Hombre"
+  },
+  {
+    "id": 5,
+    "titulo": "Reloj Casio World Time Negro",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto5.jpg",
+    "genero": "Nino"
+  },
+  {
+    "id": 6,
+    "titulo": "Reloj Casio Calculadora Blanco",
+    "precioViejo": 600,
+    "precioNuevo": 520,
+    "img": "../assets/productos/producto6.jpg",
+    "genero": "Nino"
+  },
+  {
+    "id": 7,
+    "titulo": "Reloj Casio Plata y Dorado",
+    "precioViejo": 850,
+    "precioNuevo": 700,
+    "img": "../assets/productos/producto7.jpg",
+    "genero": "Mujer"
+  },
+  {
+    "id": 8,
+    "titulo": "Reloj Fossil Café",
+    "precioViejo": 999,
+    "precioNuevo": 930,
+    "img": "../assets/productos/producto8.jpg",
+    "genero": "Hombre"
+  },
+  {
+    "id": 9,
+    "titulo": "Reloj Fossil Plata y Dorado",
+    "precioViejo": 750,
+    "precioNuevo": 700,
+    "img": "../assets/productos/producto9.jpg",
+    "genero": "Mujer"
+  },
+  {
+    "id": 10,
+    "titulo": "Reloj Casio Negro",
+    "precioViejo": 500,
+    "precioNuevo": 430,
+    "img": "../assets/productos/producto10.jpg",
+    "genero": "Nino"
+  },
+  {
+    "id": 11,
+    "titulo": "Reloj Fossil Negro",
+    "precioViejo": 830,
+    "precioNuevo": 740,
+    "img": "../assets/productos/producto11.jpg",
+    "genero": "Hombre"
+  },
+  {
+    "id": 12,
+    "titulo": "Reloj Casio Plateado",
+    "precioViejo": 750,
+    "precioNuevo": 690,
+    "img": "../assets/productos/producto12.jpg",
+    "genero": "Mujer"
+  },
+  {
+    "id": 13,
+    "titulo": "Reloj Casio Rosa",
+    "precioViejo": 780,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto13.jpg",
+    "genero": "Mujer"
+  },
+  {
+    "id": 14,
+    "titulo": "Reloj Baby-G Rosa",
+    "precioViejo": 600,
+    "precioNuevo": 550,
+    "img": "../assets/productos/producto14.jpg",
+    "genero": "Nina"
+  },
+  {
+    "id": 15,
+    "titulo": "Reloj Baby-G Rosa",
+    "precioViejo": 650,
+    "precioNuevo": 600,
+    "img": "../assets/productos/producto15.jpg",
+    "genero": "Nina"
+  },
+  {
+    "id": 16,
+    "titulo": "Reloj Baby-G Amarillo",
+    "precioViejo": 700,
+    "precioNuevo": 660,
+    "img": "../assets/productos/producto16.jpg",
+    "genero": "Nina"
+  },
+  {
+    "id": 17,
+    "titulo": "Reloj Baby-G Blanco",
+    "precioViejo": 800,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto17.jpg",
+    "genero": "Nina"
+  },
+  {
+    "id": 18,
+    "titulo": "Reloj Baby-G Rosa",
+    "precioViejo": 750,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto18.jpg",
+    "genero": "Nina"
+  },
+  {
+    "id": 19,
+    "titulo": "Reloj Casio Negro",
+    "precioViejo": 790,
+    "precioNuevo": 720,
+    "img": "../assets/productos/producto19.jpg",
+    "genero": "Nino"
+  },
+  {
+    "id": 20,
+    "titulo": "Reloj Casio World-Time negro",
+    "precioViejo": 999,
+    "precioNuevo": 900,
+    "img": "../assets/productos/producto20.jpg",
+    "genero": "Hombre"
+  }
+]

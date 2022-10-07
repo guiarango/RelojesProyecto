@@ -1,0 +1,19 @@
+.plp-productos {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+
+  .producto-item {
+    width: 23%;
+
+    img {
+      min-width: 223px;
+    }
+    button {
+      width: 80%;
+    }
+  }
+}

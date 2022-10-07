@@ -15,6 +15,31 @@
   grid-area: imagenProducto;
 }
 
+.precioViejo {
+  text-decoration: line-through;
+  margin-right: 3px;
+}
+
+.precioNuevo,
+.precioViejo {
+  &:before {
+    content: "US";
+    margin-right: 1px;
+  }
+}
+
+.nombreProducto {
+  margin-top: 5px;
+}
+
+.nombreProducto,
+.precioProducto {
+  margin-bottom: 5px;
+  .precioNuevo {
+    font-weight: bold;
+  }
+}
+
 .especificaciones-producto {
   grid-area: especificacionesProducto;
   display: flex;

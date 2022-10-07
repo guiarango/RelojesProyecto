@@ -105,25 +105,25 @@
         <ul>
           <li>
             <h3>Hombre</h3>
-            <a href="./pages/producto.html"
+            <a href="./pages/categoriasHombre.html"
               ><img src="./assets/categorias/Hombre.jpg" alt="categoria-hombre"
             /></a>
           </li>
           <li>
             <h3>Mujer</h3>
-            <a href="./pages/producto.html"
+            <a href="./pages/categoriasMujer.html"
               ><img src="./assets/categorias/Mujer.jpg" alt="categoria-mujer"
             /></a>
           </li>
           <li>
             <h3>Niño</h3>
-            <a href="./pages/producto.html"
+            <a href="./pages/categoriasNino.html"
               ><img src="./assets/categorias/Niño.jpg" alt="categoria-niño"
             /></a>
           </li>
           <li>
             <h3>Niña</h3>
-            <a href="./pages/producto.html"
+            <a href="./pages/categoriasNina.html"
               ><img src="./assets/categorias/Niña.jpg" alt="categoria-niña"
             /></a>
           </li>
@@ -139,62 +139,7 @@
         <div class="arrNext">></div>
 
         <div class="carousel-products">
-          <div class="producto-item">
-            <a href="./pages/producto.html"
-              ><img
-                class="image-product"
-                src="./assets/productos/producto1.jpg"
-                alt="producto1"
-            /></a>
-
-            <button class="agregarAlCarrito" data-referencia="Reloj1">
-              Agregar al carrito
-            </button>
-          </div>
-          <div class="producto-item">
-            <a href="./pages/producto.html"
-              ><img
-                class="image-product"
-                src="./assets/productos/producto2.jpg"
-                alt="producto2"
-            /></a>
-            <button class="agregarAlCarrito" data-referencia="Reloj2">
-              Agregar al carrito
-            </button>
-          </div>
-          <div class="producto-item">
-            <a href="./pages/producto.html"
-              ><img
-                class="image-product"
-                src="./assets/productos/producto4.jpg"
-                alt="producto4"
-            /></a>
-            <button class="agregarAlCarrito" data-referencia="Reloj3">
-              Agregar al carrito
-            </button>
-          </div>
-          <div class="producto-item">
-            <a href="./pages/producto.html"
-              ><img
-                class="image-product"
-                src="./assets/productos/producto5.jpg"
-                alt="producto5"
-            /></a>
-            <button class="agregarAlCarrito" data-referencia="Reloj4">
-              Agregar al carrito
-            </button>
-          </div>
-          <div class="producto-item">
-            <a href="./pages/producto.html"
-              ><img
-                class="image-product"
-                src="./assets/productos/producto3.jpg"
-                alt="producto3"
-            /></a>
-            <button class="agregarAlCarrito" data-referencia="Reloj5">
-              Agregar al carrito
-            </button>
-          </div>
+          <!-- SE AGREGAN PRODUCTOS DEL CARRUSEL -->
         </div>
       </section>
     </main>
@@ -258,42 +203,8 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <script type="text/javascript" defer>
-      $(".carousel-products").slick({
-        autoplay: true,
-        arrows: true,
-        prevArrow: $(".arrPrev"),
-        nextArrow: $(".arrNext"),
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-            },
-          },
-
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      });
-    </script>
+    <script src="./js/script-CrearArticulosCarrusel.js"></script>
+    <script type="text/javascript" defer></script>
     <script src="./js/script-Carrito.js"></script>
-    <script src="./js/script-AgregarAlCarrito.js"></script>
   </body>
 </html>

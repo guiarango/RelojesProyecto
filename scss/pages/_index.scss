@@ -127,6 +127,15 @@
 .modalCarrito img {
   width: 120px;
 }
+
+.modalCarrito .cancelarProducto {
+  cursor: pointer;
+}
+
+.modalCarrito .cancelarProducto:hover {
+  transform: scale(1.1);
+}
+
 .arrNext,
 .arrPrev {
   position: absolute;
