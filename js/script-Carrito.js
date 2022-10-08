@@ -112,7 +112,7 @@ class Carrito {
     //Esta variable contendrá el valor de items carrito al final del borrado
     let itemsfinalesCarrito;
 
-    if (this.itemsCarrito != null) {
+    if (this.itemsCarrito != undefined) {
       //Crear elementos de la tabla
       crearTablaDeItems(this.itemsCarrito);
       //Se crea el boton pagar todo
