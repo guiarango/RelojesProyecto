@@ -238,16 +238,16 @@ footer {
     margin-top: 10px; }
 
 .modalCarrito {
-  position: fixed;
   z-index: 1000;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.95);
-  position: fixed;
-  overflow-y: scroll;
+  position: absolute;
+  overflow-y: auto;
   overflow-x: hidden;
   color: white;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 4rem; }
 
 .modalCarrito .botonPagarCarrito {
   text-decoration: none;
